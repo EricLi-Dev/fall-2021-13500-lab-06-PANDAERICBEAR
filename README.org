@@ -1,10 +1,10 @@
 * Fall 2021 - Lab 06
 
-* Last name:
+* Last name: Li
 
-* First name:
+* First name: Eric
 
-* GitHub username:
+* GitHub username: PANDAERICBEAR
 
 * Notes:
 
@@ -14,14 +14,14 @@
 - Fill in your name and GitHub username on top.
 - Use the Notes section to add any notes to the instructor.
 - The main lab description can be found here:
-  https://maryash.github.io/135/labs/lab_06.html 
+  https://maryash.github.io/135/labs/lab_06.html
 
 
 * Specific instructions for lab 05
 
 This lab requires that you implement doctest based tests. There is
 already a skeleton ~Makefile~ with targets for ~main~ and ~tests~ as
-well as skeleton ~.c~ ~.h~ and ~doctest.h~ files. 
+well as skeleton ~.c~ ~.h~ and ~doctest.h~ files.
 
 ** Task A
 
@@ -39,7 +39,7 @@ note that this repository starts with funcs.cpp/funcs.h. You won't be
 using those files but can use them and the Makefile as a starting
 point.
 
-Make sure to put sufficient doctest tests for the two functions in tests.cpp. 
+Make sure to put sufficient doctest tests for the two functions in tests.cpp.
 
 For reference, the doctest package and documentation can be found
 [[https://github.com/onqtam/doctest][here]].
@@ -62,5 +62,3 @@ write sufficient tests in *tests.cpp*.
 Write the functions for Task D in files named *decrypt.cpp* and
 *decrypt.h* Once again, modify the other files as necessary and
 write sufficient tests in *tests.cpp*.
-
-
