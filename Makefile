@@ -21,4 +21,4 @@ test-ascii.o: test-ascii.cpp
 	g++ -c test-ascii.cpp
 
 clean:
-	rm -f main main.o funcs.o tests.o test-ascii.o
+	rm -f main main.o funcs.o tests.o test-ascii.o caesar.o
