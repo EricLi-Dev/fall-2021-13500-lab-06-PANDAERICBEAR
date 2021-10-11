@@ -1,6 +1,5 @@
 #include <iostream>
 #include "decrypt.h"
-#include "funcs.h"
 
 std::string decryptVigenere(std::string plaintext, std::string key){
   std::string decrypted = "";
@@ -60,4 +59,22 @@ char decryptShiftChar(char c, int rshift){
   else {
     return c - rshift; //shift normally
   }
+}
+
+int getShiftAmount(char c){
+  //Notes:
+  //(a)97 - (z)122
+  //(A)65 - (Z)90
+
+  int num = 0;
+
+  //Uppercase characters
+  if (isupper(c)){
+    num = int(c) - 65;
+  }
+  //Lowrcase characters
+  else {
+    num = int(c) - 97;
+  }
+  return num;
 }
