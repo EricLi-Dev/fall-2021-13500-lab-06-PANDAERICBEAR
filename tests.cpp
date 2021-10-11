@@ -19,11 +19,11 @@ TEST_CASE("encryptVigenere"){
   CHECK(encryptVigenere("Pandas", "a") == "Pandas");
   CHECK(encryptVigenere("Pandas", "ab") == "Pbneat");
   CHECK(encryptVigenere("Hello, World!", "cake") == "Jevpq, Wyvnd!");
+  CHECK(encryptVigenere("Hello, World!", "CAKE") == "Jevpq, Wyvnd!");
   CHECK(encryptVigenere("Pandas Are Cool", "panda") == "Eaagah Aeh Cdoy");
 
   CHECK(encryptVigenere("FatPandas", "FatPandas") == "KamEaagak");
   CHECK(encryptVigenere("Fat", "FatPandas") == "Kam");
-
 }
 
 TEST_CASE("decryption"){
