@@ -24,6 +24,7 @@ TEST_CASE("encryptVigenere"){
 
   CHECK(encryptVigenere("FatPandas", "FatPandas") == "KamEaagak");
   CHECK(encryptVigenere("Fat", "FatPandas") == "Kam");
+  CHECK(encryptVigenere("!!!,,,a...1234", "b") == "!!!,,,b...1234");
 }
 
 TEST_CASE("decryption"){
@@ -43,5 +44,6 @@ TEST_CASE("decryption"){
     CHECK(decryptVigenere("Eaagah Aeh Cdoy", "panda") == "Pandas Are Cool");
 
     CHECK(decryptVigenere("KamEaagak", "FatPandas") == "FatPandas");
+    CHECK(decryptVigenere("!!!,,,b...1234", "b") == "!!!,,,a...1234");
   }
 }

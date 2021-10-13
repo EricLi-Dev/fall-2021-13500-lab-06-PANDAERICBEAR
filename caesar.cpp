@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cctype>
 #include "caesar.h"
 
 std::string encryptCaesar(std::string plaintext, int rshift){

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cctype>
 #include "vigenere.h"
 
 std::string encryptVigenere(std::string plaintext, std::string key){

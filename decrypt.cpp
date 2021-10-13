@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cctype>
 #include "decrypt.h"
 
 std::string decryptVigenere(std::string plaintext, std::string key){
