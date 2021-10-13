@@ -5,7 +5,12 @@ using std::cout;
 using std::endl;
 
 int main(){
+  cout << "First Test Case: Cat :3 Dog" << endl;
   std::string input = "Cat :3 Dog";
+  testAscii(input);
+
+  cout << "Second Test Case: Pandas Are Dope" << endl;
+  input = "Pandas Are Dope";
   testAscii(input);
   return 0;
 }
